@@ -2,11 +2,11 @@
     <div>
         <h2>Добавить изображение</h2>
         <form @submit.prevent="submitForm">
-            <div>
+            <div class="form-group">
                 <label for="image_base64">Изображение (base64):</label>
                 <textarea id="image_base64" v-model="image_base64" required></textarea>
             </div>
-            <div>
+            <div class="form-group">
                 <label for="description">Описание:</label>
                 <textarea type="text" id="description" v-model="description" required></textarea>
             </div>

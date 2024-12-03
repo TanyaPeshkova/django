@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="image-list">
         <h2>Список всех изображений</h2>
         <ul>
             <li v-for="image in images" :key="image.id">
